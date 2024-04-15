@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="conditionHistory">
+	</section>
+	<section name="expressionHistory">
+	</section>
+	<section name="AddExceptionDialog">
+		<item key="caughtChecked" value="false"/>
+		<item key="uncaughtChecked" value="true"/>
+	</section>
+</section>

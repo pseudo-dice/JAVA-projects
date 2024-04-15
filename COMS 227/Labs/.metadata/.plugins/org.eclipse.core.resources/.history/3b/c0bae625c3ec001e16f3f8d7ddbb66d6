@@ -1,0 +1,31 @@
+package lab6;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+
+public class WordReader {
+
+
+	
+	    public static void countWordsInFile(String filename) {
+	        try {
+	            BufferedReader reader = new BufferedReader(new FileReader(filename));
+	            String line;
+	            while ((line = reader.readLine()) != null) {
+	                int wordCount = line.split("\\s+").length;
+	                System.out.println("Number of words in line: " + wordCount);
+	            }
+	            reader.close();
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	        }
+	    }
+
+	    public static void main(String[] args) {
+	        countWordsInFile("scores.txt");
+	    }
+	}
+
+

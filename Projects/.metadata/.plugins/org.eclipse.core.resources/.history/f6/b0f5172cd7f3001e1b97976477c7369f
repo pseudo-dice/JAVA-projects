@@ -1,0 +1,10 @@
+package randomvalues;
+
+public class randval {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

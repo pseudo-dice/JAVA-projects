@@ -1,0 +1,15 @@
+package orgame;
+import java.util.Scanner;
+
+public class orgame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("You are playing a game! Press q or Q to quit");
+		String response = scanner.next();
+
+	}
+
+}
